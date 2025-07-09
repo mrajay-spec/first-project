@@ -1,6 +1,7 @@
 public class multiplication 
 {
      
+    
     public static void main(String[] args)
      {
         int num1 = 5; // You can change this value
