@@ -35,6 +35,7 @@ public static void main(String[] args)
     }
     System.out.println("Largest number is: " + largest);
     //finding the smallest number------------------------------------------------
+    
     sc.close();
 }
 }
