@@ -17,13 +17,13 @@ public static void main(String[] args)
         System.out.print(arr[i] + " ");
     }
     //sum of n numbers----------------------------------------------------------
-    System.out.println("sum is:");
+    //System.out.println("sum is:");
     int sum = 0;
     for (int i= 0; i < n; i++)
     {
         sum += arr[i];
     }
-    System.out.println("sum is: " + sum);
+    System.out.println("\nsum is: " + sum);
     //finding the largest number------------------------------------------------
     int largest = arr[0];
     for (int i = 1; i < n; i++) 
@@ -35,7 +35,15 @@ public static void main(String[] args)
     }
     System.out.println("Largest number is: " + largest);
     //finding the smallest number------------------------------------------------
-    
+    int smallest = arr[0];
+    for (int i = 1; i < n; i++) 
+    {
+        if (arr[i] < smallest) 
+        {
+            smallest = arr[i];
+        }
+    }
+    System.out.println("Smallest number is: " + smallest);
     sc.close();
 }
 }
